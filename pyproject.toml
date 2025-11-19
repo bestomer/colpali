@@ -86,4 +86,5 @@ select = ["E", "F", "W", "I", "N"]
 "__init__.py" = ["F401"]
 
 [tool.uv.sources]
-torch = { url = "https://download.pytorch.org/whl/cu130/torch-2.9.1%2Bcu130-cp312-cp312-manylinux_2_28_x86_64.whl" }
+torch = { url = "https://download.pytorch.org/whl/cu130/torch-2.9.0%2Bcu130-cp312-cp312-manylinux_2_28_x86_64.whl" }
+torchvision = { url = "https://download.pytorch.org/whl/cu130/torchvision-0.24.0%2Bcu130-cp312-cp312-manylinux_2_28_x86_64.whl" }
